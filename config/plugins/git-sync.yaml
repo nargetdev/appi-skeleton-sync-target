@@ -1,0 +1,23 @@
+enabled: true
+text_var: 'Custom Text added by the **Git Sync** plugin (disable plugin to remove)'
+folders:
+  - pages
+  - accounts
+  - config
+  - data
+  - plugins
+  - themes
+webhook: /_git-sync
+branch: master
+remote:
+  name: origin
+  branch: master
+git:
+  author: gituser
+  name: GitSync
+  email: git-sync@trilby.media
+  bin: git
+logging: false
+password: gitsync-def50200492165ab771319d087f1beda849ee9a31792c20568c7b446676501d078a0c3a05c5b70f10195a6e90d38b4f9408db2f2c7a45d631e311631c573d0a5397019cc8cafd8c1619a0dd1fe6786957eb5256b9f5f2ab31a238ab35c
+repository: 'https://github.com/nargetdev/appi-skeleton-sync-target'
+user: nargetdev
